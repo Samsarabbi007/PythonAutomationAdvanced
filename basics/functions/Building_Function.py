@@ -21,3 +21,6 @@ print(list(reversed(sorted_list)))
 #average
 average = sum(sorted_list) / len(sorted_list)
 print(average)
+
+
+print(list(reversed(sorted_list)))

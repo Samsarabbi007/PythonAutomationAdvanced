@@ -8,6 +8,8 @@ print(list1[-2])  # Output: C++
 print(list1[1:3])  # Output: ['Java', 'C++']// list [start:end-1]
 print(list1[1:])  # Output: ['Java', 'C++', 'JavaScript']
 print(list1[:3])  # Output: ['Python', 'Java', 'C++']
+print(list1[::])  # Output: ['Python', 'Java', 'C++', 'JavaScript'] {start:end:step}
+
 print(list1[::2])  # Output: ['Python', 'C++']
 print(list1[::-1])  # Output: ['JavaScript', 'C++', 'Java', 'Python']//buji nai
 print(list1[::-2])  # Output: ['JavaScript', 'Java']
