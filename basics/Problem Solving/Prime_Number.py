@@ -12,6 +12,5 @@ def prime_numbers():
     else:
         print(f"{number} is not a prime number")
 
-        return number
-print(prime_numbers()
-)
+        return None
+prime_numbers()

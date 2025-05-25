@@ -1,5 +1,5 @@
 list1 = ["python", "java", "c++", "javascript", "ruby", "swift"]
-actual_list = list.copy(list1)
+actual_list = list.copy(list1 )
 print("Original List:", actual_list)
 
 testList = list(actual_list)

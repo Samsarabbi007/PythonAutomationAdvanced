@@ -7,3 +7,9 @@ def find_largest_three_numbers(number_list):
 
 print(find_largest_three_numbers(number_list))
 
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+largest = max(num1, num2, num3)
+print("The largest number is:", largest)
