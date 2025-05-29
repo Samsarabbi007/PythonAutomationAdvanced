@@ -1,6 +1,6 @@
 my_list = [1, 2, 3,"apple", "banana", "orange",4.5]
 #Using Append
-my_list.append("Orenge")
+my_list.append("Orange")
 my_list.append(True)
 my_list.append(50)
 print("List after appending:", my_list)
