@@ -6,10 +6,5 @@ my_dict = {
     "Batch" : "09"
 }
 
-#Access an item by key
-print(my_dict["name"])
-
-
-#Using get() function
-print(my_dict.get("University"))
-print(my_dict.get("Batch"))
+my_dict["Phone"]= "01712953148"
+print(my_dict)
